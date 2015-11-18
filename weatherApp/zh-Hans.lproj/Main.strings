@@ -1,0 +1,36 @@
+
+/* Class = "UINavigationItem"; title = "切换背景"; ObjectID = "0kK-hM-eTi"; */
+"0kK-hM-eTi.title" = "切换背景";
+
+/* Class = "UILabel"; text = "22℃"; ObjectID = "8IV-XL-JF0"; */
+"8IV-XL-JF0.text" = "22℃";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JG5-WV-OLL"; */
+"JG5-WV-OLL.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "添加城市"; ObjectID = "KFK-SM-W67"; */
+"KFK-SM-W67.title" = "添加城市";
+
+/* Class = "UILabel"; text = "晴"; ObjectID = "MBV-kp-pxD"; */
+"MBV-kp-pxD.text" = "晴";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "OUb-YI-ZuO"; */
+"OUb-YI-ZuO.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PQB-fd-MoQ"; */
+"PQB-fd-MoQ.text" = "Label";
+
+/* Class = "UILabel"; text = "添加城市"; ObjectID = "Piq-Bg-flZ"; */
+"Piq-Bg-flZ.text" = "添加城市";
+
+/* Class = "UILabel"; text = "西安"; ObjectID = "T82-DC-KMV"; */
+"T82-DC-KMV.text" = "西安";
+
+/* Class = "UILabel"; text = "热门城市"; ObjectID = "Zen-7f-KDR"; */
+"Zen-7f-KDR.text" = "热门城市";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "feP-Eg-5E4"; */
+"feP-Eg-5E4.text" = "Label";
+
+/* Class = "UILabel"; text = "1小时前发布"; ObjectID = "gcR-Zf-8cp"; */
+"gcR-Zf-8cp.text" = "1小时前发布";

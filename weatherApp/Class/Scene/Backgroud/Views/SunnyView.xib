@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="JNg-FX-4Mj" customClass="SunnyBackgroundView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_sunny.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="t6R-Pj-wfm">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="780"/>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ele_sunnyCloud1.png" translatesAutoresizingMaskIntoConstraints="NO" id="dAe-8p-XrU">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="50" y="485" width="301" height="128"/>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ele_sunnySunshine.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kba-Ie-eax">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="-58" y="0.0" width="350" height="350"/>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ele_sunnySun.png" translatesAutoresizingMaskIntoConstraints="NO" id="HPr-at-T8o">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="-1" y="54" width="237" height="224"/>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ele_sunnyCloud2.png" translatesAutoresizingMaskIntoConstraints="NO" id="4ze-az-pJ8">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="-104" y="485" width="240" height="128"/>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vz6-vQ-HtP">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="16" y="230" width="69" height="52"/>
+                    </variation>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="r7A-v8-xpf">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                        <rect key="frame" x="16" y="612" width="69" height="52"/>
+                    </variation>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="t6R-Pj-wfm"/>
+                    <exclude reference="dAe-8p-XrU"/>
+                    <exclude reference="Kba-Ie-eax"/>
+                    <exclude reference="HPr-at-T8o"/>
+                    <exclude reference="4ze-az-pJ8"/>
+                    <exclude reference="Vz6-vQ-HtP"/>
+                    <exclude reference="r7A-v8-xpf"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="t6R-Pj-wfm"/>
+                    <include reference="dAe-8p-XrU"/>
+                    <include reference="Kba-Ie-eax"/>
+                    <include reference="HPr-at-T8o"/>
+                    <include reference="4ze-az-pJ8"/>
+                    <include reference="Vz6-vQ-HtP"/>
+                    <include reference="r7A-v8-xpf"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="birdImage" destination="Vz6-vQ-HtP" id="RrR-h2-YLY"/>
+                <outlet property="birdShadowImage" destination="r7A-v8-xpf" id="LAx-od-ZxL"/>
+                <outlet property="sunShineImage" destination="Kba-Ie-eax" id="t5y-H8-axT"/>
+                <outlet property="sunnyCloud1Image" destination="dAe-8p-XrU" id="T0l-Ul-uOv"/>
+                <outlet property="sunnyCloud2Image" destination="4ze-az-pJ8" id="fPN-wG-yNA"/>
+            </connections>
+            <point key="canvasLocation" x="288" y="322"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_sunny.jpg" width="640" height="1136"/>
+        <image name="ele_sunnyCloud1.png" width="650" height="240"/>
+        <image name="ele_sunnyCloud2.png" width="644" height="196"/>
+        <image name="ele_sunnySun.png" width="612" height="579"/>
+        <image name="ele_sunnySunshine.png" width="700" height="700"/>
+    </resources>
+</document>

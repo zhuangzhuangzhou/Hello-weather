@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="sX7-Hr-MsB" customClass="WeatherDetailView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z1l-mQ-b9t">
+                    <rect key="frame" x="20" y="47" width="372" height="53"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="handleCityButtonAction:" destination="sX7-Hr-MsB" eventType="touchUpInside" id="Am2-Uf-9ov"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="天气" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbX-CQ-fl5">
+                    <rect key="frame" x="20" y="129" width="68" height="42"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="162" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="igJ-Yd-GUb">
+                    <rect key="frame" x="0.0" y="171" width="320" height="397"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="sX7-Hr-MsB" id="hlH-cP-42w"/>
+                        <outlet property="delegate" destination="sX7-Hr-MsB" id="NYq-l1-zqU"/>
+                    </connections>
+                </tableView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="几小时前发布" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MRl-f8-uJ3">
+                    <rect key="frame" x="87" y="148" width="185" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="185" id="DCu-Nd-9zv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kgr-PC-TQH">
+                    <rect key="frame" x="267" y="131" width="45" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="9yL-bL-O5s"/>
+                        <constraint firstAttribute="width" constant="45" id="DlZ-03-DzJ"/>
+                    </constraints>
+                    <state key="normal" image="locate_icon.png"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="MRl-f8-uJ3" secondAttribute="trailing" constant="48" id="2ac-PF-gc2"/>
+                <constraint firstItem="MRl-f8-uJ3" firstAttribute="top" secondItem="sX7-Hr-MsB" secondAttribute="top" constant="148" id="8hZ-W9-MT8"/>
+                <constraint firstItem="MRl-f8-uJ3" firstAttribute="leading" secondItem="nbX-CQ-fl5" secondAttribute="trailing" constant="-1" id="BLP-HH-cRG"/>
+                <constraint firstItem="Z1l-mQ-b9t" firstAttribute="leading" secondItem="nbX-CQ-fl5" secondAttribute="leading" id="G1T-pd-fbr"/>
+                <constraint firstItem="Z1l-mQ-b9t" firstAttribute="top" secondItem="sX7-Hr-MsB" secondAttribute="top" constant="47" id="GFT-ZD-w6V"/>
+                <constraint firstItem="Kgr-PC-TQH" firstAttribute="top" secondItem="Z1l-mQ-b9t" secondAttribute="bottom" constant="31" id="HWi-E3-9eG"/>
+                <constraint firstItem="nbX-CQ-fl5" firstAttribute="top" secondItem="Z1l-mQ-b9t" secondAttribute="bottom" constant="29" id="NAI-um-mwT"/>
+                <constraint firstAttribute="trailing" secondItem="igJ-Yd-GUb" secondAttribute="trailing" id="PQg-cs-BsC"/>
+                <constraint firstItem="igJ-Yd-GUb" firstAttribute="leading" secondItem="sX7-Hr-MsB" secondAttribute="leading" id="UVg-EU-mYy"/>
+                <constraint firstAttribute="trailing" secondItem="Z1l-mQ-b9t" secondAttribute="trailing" constant="-72" id="Waz-zL-0Af"/>
+                <constraint firstItem="igJ-Yd-GUb" firstAttribute="top" secondItem="MRl-f8-uJ3" secondAttribute="bottom" constant="2" id="Yzm-z0-9KP"/>
+                <constraint firstAttribute="trailing" secondItem="Kgr-PC-TQH" secondAttribute="trailing" constant="8" id="dWr-Lb-2mZ"/>
+                <constraint firstAttribute="bottom" secondItem="igJ-Yd-GUb" secondAttribute="bottom" id="iip-kV-5PM"/>
+                <constraint firstItem="MRl-f8-uJ3" firstAttribute="top" secondItem="Z1l-mQ-b9t" secondAttribute="bottom" constant="48" id="jPA-RM-61l"/>
+                <constraint firstItem="MRl-f8-uJ3" firstAttribute="bottom" secondItem="nbX-CQ-fl5" secondAttribute="bottom" constant="-2" id="myZ-t3-i3k"/>
+                <constraint firstItem="Z1l-mQ-b9t" firstAttribute="leading" secondItem="sX7-Hr-MsB" secondAttribute="leading" constant="20" id="yLF-H3-Lng"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cityButton" destination="Z1l-mQ-b9t" id="0sf-Ey-6JU"/>
+                <outlet property="locateButton" destination="Kgr-PC-TQH" id="Rvm-Wf-SES"/>
+                <outlet property="mainScrollView" destination="igJ-Yd-GUb" id="X9m-9y-5Mo"/>
+                <outlet property="publishTimeLabel" destination="MRl-f8-uJ3" id="i7G-k7-1mT"/>
+            </connections>
+            <point key="canvasLocation" x="-727" y="44"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="locate_icon.png" width="22" height="30"/>
+    </resources>
+</document>
