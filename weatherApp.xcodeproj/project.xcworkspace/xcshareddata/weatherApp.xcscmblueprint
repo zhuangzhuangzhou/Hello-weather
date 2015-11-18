@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "b20da3ca-22cf-43ea-aec2-b2e1f52f9016++8907",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "b20da3ca-22cf-43ea-aec2-b2e1f52f9016++8907" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "b20da3ca-22cf-43ea-aec2-b2e1f52f9016++8907" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D3BB6227-1AEA-471B-8E34-14A459B400D3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "b20da3ca-22cf-43ea-aec2-b2e1f52f9016++8907" : "weatherApp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "weatherApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "weatherApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/www.svnchina.com\/svn\/weatherneue",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "b20da3ca-22cf-43ea-aec2-b2e1f52f9016++8907"
+    }
+  ]
+}

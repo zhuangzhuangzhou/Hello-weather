@@ -1,0 +1,5 @@
+XSym
+0046
+ad0241fb148c16a348bd9498d12f409a
+../../../STPopup/STPopup/UIResponder+STPopup.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 

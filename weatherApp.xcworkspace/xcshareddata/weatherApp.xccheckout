@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>412C3584-135F-417E-AD36-A3C07EAAE439</string>
+	<key>IDESourceControlProjectName</key>
+	<string>weatherApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>b20da3ca-22cf-43ea-aec2-b2e1f52f9016++8907</key>
+		<string>http://www.svnchina.com/svn/weatherneue/weatherApp</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>weatherApp.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>b20da3ca-22cf-43ea-aec2-b2e1f52f9016++8907</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>b20da3ca-22cf-43ea-aec2-b2e1f52f9016++8907</key>
+		<string>http://www.svnchina.com/svn/weatherneue</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://www.svnchina.com/svn/weatherneue/weatherApp/weatherApp.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>b20da3ca-22cf-43ea-aec2-b2e1f52f9016++8907</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>b20da3ca-22cf-43ea-aec2-b2e1f52f9016++8907</string>
+			<key>IDESourceControlWCCName</key>
+			<string>weatherApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
